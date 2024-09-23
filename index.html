@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Formulario de la escuela</h1>
+    <p>Por favor complete todos los campos con la informacion requerida</p>
+    <form action="#" method="post">
+
+        <section>
+            <h2>Escuela</h2>
+        <fieldset>
+
+
+
+            
+            <label for="nombre">Ingresa tu nombre:
+                <input type="text" id="nombre" name="nombre"required>
+
+
+                </label>
+                <label for="apellido">Ingresa tu edad:
+                    <input type="text" id="edad" name="edad"required>
+
+                    </label> 
+                    <label for="email">Ingresa tu email:
+                        <input type="email" id="email" name="email"required> 
+
+                    <label for="email">Ingresa tu grupo:
+                        <input type="grupo" id="grupo" name="grupo"required> 
+                  
+
+                   
+                   </label>
+           
+</fieldset>
+
+<fieldset>
+    <legend>Tipo de cuenta (requerida)</legend>
+    <label for="personal">
+        <input type="radio" name="tipo-cuenta" class="enlinea" checked>Personal
+        </label>
+        <label for="negocio"></label>
+        <input type="radio" name="tipo-cuenta" class="enlinea">escuela
+    </label>
+</p>
+<label>
+    <p>
+        "¿En que carrera estas?"
+    </p>
+    <input name="prefer" value="front-end-projects" type="checkbox"
+   class="input-checkbox">
+   "Informatica"
+
+   <input name="prefer" value="front-end-projects" type="checkbox"
+   class="input-checkbox">
+   "Mantenimiento"
+
+   <input name="prefer" value="front-end-projects" type="checkbox"
+   class="input-checkbox">
+   "Gastronomia"
+
+   <input name="prefer" value="front-end-projects" type="checkbox"
+   class="input-checkbox">
+   "Turismo"
+   
+
+    </fieldset>
+    
+        </label>
+        <label for="mensaje">Ingresa tu mensaje:
+            <textarea name="mensaje" id="mensaje"rows="3" cols="30" placeholder="Mensaje"></textarea>
+        
+        
+        </label>
+    </fieldset>
+    <label for="terminos">
+        <input type="checkbox" class="enlinea" name="terminos">
+        Acepto los <a href="#">Terminos y condiciones</a>
+
+    </label>
+    <input type="submit" value="Enviar">
+    
+     </form>   
+</body>
+</html>
